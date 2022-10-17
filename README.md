@@ -40,3 +40,12 @@ checked {
 }
 ```
 
+## From from statically type to dynamically type
+Use keyword `var` in replacement for data type keyword and let the compiler detect the data type of a variable automatically. 
+
+Note that number will be interpreted as int. 
+```
+var number = 2; //this will be an int
+var letter = 'a';
+```
+
